@@ -1,0 +1,2375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: divvy-reg;
+    src: url(../fonts/JF-Flat-regular.ttf);
+}
+/* start secion link */
+.link{
+    width: 100%;
+    height: 6vh;
+    background-color: #000000;
+}
+.link .link0{
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+.link .link0 .link11{
+   margin-top: 8px;
+}
+.link11 i{
+    color: white;
+    margin-left: 3px;
+}
+.link a span{
+    font-family: divvy-reg;
+    color: white;
+    font-size: 11px;
+}
+.mlm{
+    font-family: divvy-reg;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+}
+.link3{
+    margin-left: -62px;
+}
+/* start navbar */
+.navbar{
+    background-color: #004d85;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+} 
+.navbar-brand img{
+    margin-right: 80px;
+    margin-top: -10px;
+}
+.navbar-nav .lol-textline{
+    font-family: divvy-reg;
+    color: white !important;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #004d85 !important;
+    background-color: #e7e7e7;
+}
+.lol-btnt{
+    font-family: divvy-reg;
+   margin-top: -10px;
+   padding: 0 10px;
+   color: white !important;
+}
+.lol-btnb{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 150px;
+    background-color: #e10571;
+    border-radius: 10px;
+}
+.lol-btnt:hover{
+    color: #004d85 !important;
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .lol-btn3{
+        margin-top: 20px;
+        
+       }
+       .lol-btn9{
+        margin-top: 20px;
+       }
+}
+@media (min-width:768px) and (max-width:991px){
+    .navbar-brand img{
+        margin-top: -18px;
+        width: 100px;
+    }
+    .lol-btn3{
+        margin-top: -20px;
+        
+       }
+       .lol-btn9{
+        margin-top: 20px;
+       }
+    .lol-btnb{
+        margin-top: -30px;
+        width: 120px;
+    }
+    .lol-btnt{
+        font-size: 4px;
+    }
+    .navbar-nav .lol-textline{
+        margin-top: -40px;
+        font-size: 8px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .dropdown {
+        margin-top: -40px;
+    }
+    .navbar-brand img{
+        margin-top:-17px;
+    }
+    .lol-btnb{
+        margin-top: -25px;
+    }
+    .border-text{
+        width: 1080px !important;
+    }
+}
+/* start lol-heder */
+.lol-heder1{
+    background-image: linear-gradient(80deg,#c9c5c4,#edebec) !important;
+    height: 99vh;
+    margin-bottom: 0px;
+}
+.lol-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.sec {
+    background-color: #e10571;
+    width: 160px;
+    height: 60px;
+    border: 0;
+}
+.sec h3{
+    font-family: divvy-reg;
+    color: white;
+    font-size: 18px;
+    margin-top:12px ;
+}
+.sec1::after{
+    content: "";
+    display: inline-block;
+    border: 10px solid;
+    margin-top: 15px;
+    border-color: white transparent transparent transparent;
+}
+.sec1 {
+    height: 61px;
+    width: 40px;
+    position: absolute;
+    right: 160px;
+    top: 166sepx;
+    background-color: #7e023e;
+    border: 0;
+}
+.box{
+    position: absolute;
+    height: 425px;
+    width: 280px;
+    right: 5px;
+    top: 235px;
+    background-color: #e10571;
+    border-radius: 20px;
+}
+.box h4{
+    font-family: divvy-reg;
+    color: white;
+    font-size: 14px;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.chex{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.box label span{
+    font-family: divvy-reg;
+    color: white;
+    margin-right: 3px;
+    font-weight: lighter;
+}
+.bord{
+    height: 2px;
+    width: 240px;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.lesta {
+    margin-right: 15px;
+    margin-bottom: 3px;
+}
+.lesta label{
+    font-family: divvy-reg;
+    color: white;
+    font-weight: lighter;
+}
+.lesta select option{
+    direction: ltr;
+}
+.inp input{
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 15px;
+    width: 240px;
+}
+::placeholder{
+    padding: 3px;
+    padding-right: 8px;
+    font-family: divvy-reg;
+    color: #e10571;
+    font-weight: lighter
+}
+.sow {
+    margin-bottom: 15px;
+}
+.sow label{
+    font-family: divvy-reg;
+    color: white;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+.sow input{
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 15px;
+    width: 240px;
+}
+.btn5{
+    display: flex;
+    justify-content: center;
+}
+.btn5 .btn6{
+    background-color: white;
+    color: #e10571;
+    border: 0;
+    margin-left: 15px;
+    width: 110px;
+    font-family: divvy-reg;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.coming-soon h2 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: divvy-reg;
+    margin-bottom: 0;
+    color:#e10571 ;
+    
+  }
+  .coming-soon {
+    display: flex;
+  }
+  .coming-soon div{
+      margin-top: 0px;
+  }
+  .coming-soon div h2{
+      margin-top: 15px;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40%;
+    direction: ltr;
+    gap: 15px;
+    margin-right: 40px;
+  }
+
+  .container-day{
+      width: 60px;
+      height: 80px;
+      background-color: #e10571;
+      color: white;
+      display:block;
+      font-weight: bold;
+      font-family: divvy-reg;
+      border-radius: 10px;
+  }
+  .container-day h3{
+      margin-top: 13px;
+      font-size: 18px;
+  }
+.waiting {
+    height: 50vh;
+  }
+  .container-hour{
+    width: 60px;
+    height: 80px;
+    background-color: #e10571;
+    color: white;
+    display:block;
+    font-weight: bold;
+    font-family: divvy-reg;
+    border-radius: 10px;
+}
+.container-hour h3{
+    margin-top: 13px;
+    font-size: 18px;
+}
+.container-minute{
+    width: 60px;
+      height: 80px;
+    background-color: #e10571;
+    color: white;
+    display:block;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: divvy-reg;
+}
+.lol-flex1{
+    height: 10px;
+}
+.container-minute h3{
+    margin-top: 13px;
+    font-size: 18px;
+}
+.container-second{
+    width: 60px;
+    height: 80px;
+    background-color: #e10571;
+    color: white;
+    display:block;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: divvy-reg;
+}
+.container-second h3{
+    margin-top: 13px;
+    font-size: 18px;
+}
+.lol-flex3 a{
+    text-decoration: none;
+}
+.log{
+    background-color: #e10571;
+    width: 200px;
+    border-top-right-radius:30px ;
+    border-bottom-right-radius:30px ;
+    margin-right: 50px;
+    height: 60px;
+    border: 0;
+    display: flex;
+}
+.log img{
+    margin-right: 10px;
+    transform: rotate(-20deg);
+}  
+.log h3{
+    font-family: divvy-reg;
+    color: white;
+    font-size: 17px;
+    margin-top:22px ;
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .sec{
+        display: none;
+    }
+    .sec1{
+        display: none;
+    }
+    .log{
+        display: none;
+    }
+    .border-text{
+        width: 480px !important;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .sec{
+        display: none;
+    }
+    .sec1{
+        display: none;
+    }  
+    .border-text{
+        width: 770px !important;
+    }
+}
+.lol-image img{
+    width: 1250px;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+}
+@media (min-width:992px) and (max-width:1199px){
+    .lol-image img{
+        width: 1000px;
+        height: 300px;
+    }
+    .sec1{
+        top: 174px;
+    }
+    .navbar-brand img{
+        margin-top: -35px;
+       
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .lol-image img{
+        width: 700px;
+        height: 300px;
+    }
+    
+}
+@media (min-width:320px) and (max-width:767px){
+    .lol-image img{
+        width: 450px;
+      
+        height: 350px;
+    }
+    .navbar-brand img{
+        margin-top: -17px;
+       
+    }
+    .list-btn12{
+        width: 200px !important;
+        margin-top: 0px !important ;
+    }
+    .list-btn123{
+        margin-top: 0px !important;
+    }
+    .btn1{
+      display: none;
+    }
+}
+.list-btn12{
+    margin-top: 18px ;
+}
+.list-btn123{
+    margin-top: 18px;
+}
+.btn8{
+    background-color: #004d84;
+    color: white;
+}
+.btn3 {
+    top: 480px;
+    left: 360px;
+    position: absolute;
+    background-color: #e10571;
+    width: 200px;
+    font-family: divvy-reg;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn1 :hover{
+    background-color: #004d85;
+    border: 0;
+} 
+
+/* start h1 */
+.test{
+    margin-top: 40px;
+}
+.test h1{
+    text-align: center;
+    color: #004d84;
+    font-family: divvy-reg;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+/* .test1{
+    display: flex;
+    justify-content: space-between;
+} */
+/* .test11{
+    width: 13.5%;
+    border-radius: 10px;
+} */
+.test11 a img{
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.test11 a img:hover{
+    border-radius: 10px;
+    transform: translatey(-20px);
+    transition-timing-function:linear ;
+    transition: .7s;
+}
+.test11 p{
+    /* text-align: right; */
+    color: #004d84;
+    font-family: divvy-reg;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+@media(min-width:1200px){
+    .col-lg-2{
+        max-width: 13.666667%;
+    }
+    .lol-btn3{
+        margin-top: 20px;
+        
+       }
+       .lol-btn9{
+        margin-top: 20px;
+       }
+}
+.zer1{
+    margin-bottom: 10px;
+    background-color: #e10571;
+    color: white;
+    font-family: divvy-reg;
+    font-weight: bolder;
+}
+.zer1:hover{
+    background-color: #004d84;
+    color: white;
+    border: 1px solid #004d84;
+}
+.zer2{
+    width: 150px;
+    border-radius: 10px;
+}
+.zer3{
+    margin-bottom: 10px;
+    background-color: #004d84;
+    color: white;
+    font-family: divvy-reg;
+    font-weight: bolder;
+}
+.zer3:hover{
+    background-color: #e10571;
+    color: white;
+    border: 1px solid #e10571;
+}
+.tawasal{
+    margin-top: 100px;
+    background-color:#e10571 ;
+    min-height: 230px;
+    margin-bottom: 30px;
+}
+.tawasal h1{
+    padding-top: 35px;
+    color: white;
+    font-size: 25px;
+    font-family: divvy-reg;
+}
+.tawasal1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.tawasal1 a img{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 10px;
+
+}
+/* start loading */
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #004d85 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #e10571 transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+/* end loading */
+.images-sec{
+    margin-left: 46px;
+    margin-bottom: 30px;
+}
+.images-sec h2{
+    text-align: center;
+    font-family: divvy-reg;
+    color: #004d85;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.col-ss:hover{
+    border-radius: 10px;
+    transform: translatey(-20px);
+    transition-timing-function:linear ;
+    transition: .7s;
+}
+@media(max-width:1199px){
+    .col-ss{
+        padding-right: 60px;
+    }
+    .images-sec{
+        width:  100%px;
+}
+}
+.btn-aa{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.btn-aa a{
+    background-color: #004d85 ;
+    font-family: divvy-reg;
+    padding: 15 40px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+}
+.btn-aa a:hover{
+    background-color: #e10571;
+    border: 1px solid #e10571;
+}
+.border-text{
+    width: 1262px;
+    height: 2vh;
+    background-color: #e10571;
+    margin-bottom: 25px;
+}
+
+ /* start owl carosel  */
+.carosel{
+    background-color:#e10571 ;
+    height: 320px;
+    margin-bottom: 30px;
+}
+.carosel h1{
+    font-family: divvy-reg;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.owl-carousel{
+    width: 100%;
+    margin: auto;
+}
+.owl-carousel div{
+    width: 65%;
+    margin: auto;
+}
+.owl-carousel div img{
+    height: 180px; 
+    width: 80px;
+    
+}
+
+ /* end owl carosel  */
+ /* start footer */
+
+ /* end footer */
+ .navs{
+    direction: ltr;
+    margin-top: 75px;
+    display: flex;
+ }
+ .navs .nav-pills{
+     padding-right: 30px;
+     margin-left: 50px;
+     border-right:2px solid #e8edf0 ;
+     /* width: 32%; */
+     height: 100vh;
+ }
+.span1{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: divvy-reg;
+    font-size: 17px;
+    background-color: #e10571;
+    color:  #fff;
+    margin-left: 35px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+} 
+.nav-pills li a{
+    font-family: divvy-reg;
+    font-size: 11px;
+    margin-left: 40px;
+    text-align: right;
+    color: #004d85;
+    line-height: 1px;
+ }
+.nav-pills li a:hover{
+     color: #e10571;
+ }
+ /* start heade */
+.heade{
+    direction: ltr;
+    height: 85%;
+}
+
+.boxses1{
+    display: flex;
+    border: 1px solid white;
+    margin-left: 50px;
+    padding-right: 25px;
+}
+.boxses1 img{
+    border: 1px solid white;
+    transition: 1s;
+}
+.boxses1 img:hover{
+    transform: rotate(10deg);
+    transition-timing-function:ease-out ;
+}
+.btn-dan{
+    width: 240px;
+    font-family: divvy-reg;
+    background-color: #e10571;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.btn-dan:hover{
+    background-color: #004d85;
+}
+.lol-fonts{
+    display: flex;
+}
+.lol-fonts5{
+    display: flex;
+    justify-content:space-between;
+}
+.lol-fonts1 span,.lol-fonts2 span{
+    color: #004d85;
+    margin-left: 2px;
+    font-size: 12px;
+}
+.lol-fonts1,.lol-fonts2{
+    font-size: 15px;
+    margin-left: 75px;
+}
+
+
+.lol-fonts2{
+    margin-left: 5px;
+}
+.lol-fonts2 span{
+    border-right: 2px solid #e8edf0;
+    padding-right: 30px;
+}
+.lol-fonts6{
+    display: flex;
+    margin-left: 40px;
+
+}
+.lol-fonts6 p{
+    font-family: divvy-reg;
+    font-size: 13px;
+    color: #004d85;
+    margin-right: 5px;
+}
+
+.pagination{
+    
+    margin-left: 395px;
+
+
+
+}
+.pagination .disabled span{
+    color: #e10571;
+}
+.nav a{
+    text-decoration: none;
+}
+.span2{
+    padding-left: 35px;
+}
+.span3{
+    padding-left: 15px;
+}
+.span4{
+    padding-left: 25px;
+}
+.span5{
+    display: block;
+  margin-left: 5px;
+  padding-right: 13px;
+}
+.lol-nav{
+    direction: ltr;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.span6{
+    background-color: #e10571;
+    margin-bottom: 15px;
+    color: white;
+    border-radius: 5px;
+}
+.lol-nav li {
+    margin-bottom: 20px;
+}
+.lol-nav2{
+    direction: rtl;
+    margin-right: -20PX;
+    width: 80%;
+}
+.lol-nav2 h1{
+    font-size: 18px;
+    font-family: divvy-reg;
+    margin-right: 500PX;
+    color: #e10571;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lol-nav3{
+    display: flex;
+    justify-content: space-around;
+    margin-top:17px; 
+    margin-right: 30px;
+}
+.lol-nav3 p{
+    font-size: 18px;
+    font-family: divvy-reg;
+    margin-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.lol-nav42,.lol-nav41{
+    padding-left:20px ;
+    padding-right: 20px;
+    background-color: #004d85 ;
+    color: white;
+    font-family: divvy-reg;
+    padding-top: 2px;
+    border-radius: 5px;
+}
+.lol-nav51{
+    width: 250px;
+    background-color: #004d85 ;
+    height: 500px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-right: 90px;
+    font-family: divvy-reg;
+    font-size: 18px;
+}
+.box123{
+    position: absolute;
+    height: 425px;
+    width: 280px;
+    left: 5px;
+    top: 235px;
+    background-color: #e10571;
+    border-radius: 20px;
+}
+.lol-nav4{
+    padding-top: 2px;
+    width: 250px;
+    background-color: #e10571;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* start Ahmed Abuzaid */
+/* start Header */
+.heade{
+    font-family: divvy-reg;
+    width: 70%;
+    margin-left: 12px;
+    padding: 30px 0px;
+    margin-bottom: 40px;
+}
+.heade .lol-heade h5{
+    font-size: 20px;
+    color: #e10571;
+    margin-left: 110px;
+}
+.heade div.active-contant{
+    background-color: #e10571;
+}
+.heade .lol-contant{
+    background-color: #004d85;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 0px;
+    border-radius:4px ;
+    -webkit-border-radius:4px ;
+    -moz-border-radius:4px ;
+    -ms-border-radius:4px ;
+    -o-border-radius:4px ;
+}
+.lol-boxes .lol-box1{
+    background-color: #e10571;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-top: 8px;
+    padding-right: 10px;
+}
+.lol-boxes .box-active{
+    background-color: #004d85;
+}
+.lol-boxes .lol-box1 li{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.lol-boxes .box-active li:last-child{
+padding-top: 18px;
+margin-bottom: 0;
+}
+.lol-boxes .box2{
+    background-color: #004d84;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.heade .lol-link{
+    background-color: #e10571;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.heade .lol-link a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.heade .lol-link:hover{
+    background-color: #004d84;
+}
+/* End Header */
+/* End Ahmed Abuzaid */
+/* btn */
+.lol-btn{
+    margin-top: 40px;
+    margin-right: 550px;
+    margin-bottom: 25px;
+}
+.lol-btn .lol-btn1 {
+    padding: 5px 20px;
+    margin-bottom: 15px;
+}
+.lol-btn .lol-btn1:hover{
+    background-color: #e10571;
+    color: white;
+    
+}
+.zer2 {
+    width: 150px;
+    border-radius: 10px;
+    margin-right: -9px;
+}
+.test11 a img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: -9px;
+}
+.lol-btn p{
+    color: #004d85 ;
+    font-size: 15px;
+    font-family: divvy-reg;
+}
+.lol-input1{
+    font-family: divvy-reg;
+    font-size: 16px;
+    background-color: #004d85 ;
+    padding: 3px 12px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.lol-input1 p{
+    margin-top: 5px;
+    color: white;
+}
+.lol-input2{
+    direction: rtl;
+}
+
+.lll{
+    margin-bottom: 17px;
+}
+.lol-btn2{
+    margin-right: 450px;
+    padding: 5px 40px;
+    margin-bottom: 30px;
+}
+.lol-btn3{
+    margin-right: 5px;
+    padding: 5px 40px;
+    margin-bottom: 30px;
+}
+.lol-btn2:hover{
+    background-color: #004d85;
+    color:white;
+}
+.lol-btn3:hover{
+    background-color: #004d85;
+    color:white;
+}
+.llll{
+    direction: rtl;
+}
+.input-group{
+    direction: ltr;
+    color: rgba(0, 0, 0, 0.322);
+    margin-bottom: 20px;
+}
+.input-group button{
+    border-right:0 ;
+    width: 350px;
+}
+.input-group input{
+    border-left: 0;
+    direction: rtl;
+    color: rgba(0, 0, 0, 0.322);
+    margin-bottom: 10px;
+}
+.btn .caret {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.322);
+}
+.input-group button a{
+    color: rgba(0, 0, 0, 0.322);
+    font-family: divvy-reg;
+    text-decoration: none;
+}
+.open>.dropdown-menu {
+    display: block;
+    background-color: white;
+    box-shadow: 0 0 0 0 transparent;
+   
+}
+.open>.dropdown-menu a{
+    color: rgba(0, 0, 0, 0.322);
+}
+.lol-span{
+    margin-right: 13px;
+}
+.lol-span span{
+    margin-right: 5px;
+    font-family: divvy-reg;
+    color: #004d85 ;
+}
+.lol-span p{
+    font-family: divvy-reg;
+    color: #e10571;
+}
+.lol-span p a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.lol-input8{
+    display: none;
+}
+.bbb{
+    text-align: center;
+}
+.aaa{
+    font-family: divvy-reg;
+    color: #004d85 ;
+    margin-right: 20px;
+}
+label{
+    font-family: divvy-reg;
+    color: #004d85 ;
+    font-weight: lighter;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-right: 20px;
+}
+
+::placeholder{
+    color: #004d85 ;
+}
+.vvv{
+    margin-right: 500px;
+}
+.he{
+    display: none;
+}
+.btn-danger:focus {
+    background-color: #004d85 ;
+}
+.btn-danger:active{
+    background-color: #004d85 ;
+}
+.btn-success:active{
+    background-color: #e10571;
+}
+/* media footer */
+@media (min-width:320px) and (max-width:767px){
+    .lol-btn3{
+        margin-right: 50px;
+        margin-top: 20px;
+      }
+      .lol-btn9{
+        margin-right: 100px;
+        margin-top: 20px;
+
+      }
+      .a-div{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        margin-left: 100px;
+    
+    }
+    .b-div{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        margin-left: 190px;
+    
+    }
+    .area-123{
+        width: 250px;
+        height: 150px;
+    }
+    .lol-btn {
+        margin-right: 50px !important;
+
+    }
+    .lol-btn88{
+        margin-right: 180px !important;
+       
+    }
+    .list-btn12{
+        width: 200px !important;
+    }
+    .foot ul li a{
+        font-size: 8px !important;
+    }
+    .navs{
+        margin-left: 10px;
+        
+        
+    
+    }
+   
+    .navv  {
+       
+        display: flex;
+        flex-wrap: wrap;
+        
+      }
+      .navv{
+        display: none;
+      }
+      .pagination {
+        display: none;
+      }
+     
+      .link0 a span{
+        display: none;
+      }
+      .do{
+        display: block;
+      }
+      .vc{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: block !important;
+        
+      }
+      body{
+        width: 100%;
+      }
+}
+.vc{
+    display: none;
+}
+/* end media footer */
+.lol-secfoteer{
+    background-color: black;
+}
+.lol-secfoteer2 a{
+    display: block !important;
+    font-size: #004d84;
+    font-size: 15px;
+    font-family: divvy-reg;
+    text-decoration: none;
+}
+.lol-secfoteer2{
+    margin-bottom: 20px;
+}
+.lol-secfoteer1 p{
+    color: white;
+    font-size: 20px;
+    font-family: divvy-reg;
+    margin-top: 30px;
+}
+.kkkk{
+    display: flex;
+    gap: 30px;
+}
+.kkkk a i{
+    background-color: #004d84 !important;
+    color: white !important;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+.nnnn a i{
+    background-color: #004d84 !important;
+    color: white !important;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.lol-input8{
+    display: none;
+}
+.bbb{
+    text-align: center;
+}
+.aaa{
+    font-family: divvy-reg;
+    color: #004d85 ;
+    margin-right: 20px;
+}
+label{
+    font-family: divvy-reg;
+    color: #004d85 ;
+    font-weight: lighter;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-right: 20px;
+}
+
+::placeholder{
+    color: #004d85 ;
+}
+.vvv{
+    margin-right: 500px;
+}
+.he{
+    display: none;
+}
+.btn-danger:focus {
+    background-color: #004d85 ;
+}
+.btn-danger:active{
+    background-color: #004d85 ;
+}
+.btn-success:active{
+    background-color: #e10571;
+}
+/* media footer */
+@media (min-width:320px) and (max-width:767px){
+    .foot ul li a{
+        font-size: 8px !important;
+    }
+}
+/* end media footer */
+.lol-secfoteer{
+    background-color: black;
+}
+.lol-secfoteer2 a{
+    display: block !important;
+    font-size: #004d84;
+    font-size: 15px;
+    font-family: divvy-reg;
+    text-decoration: none;
+}
+.lol-secfoteer2{
+    margin-bottom: 20px;
+}
+.lol-secfoteer1 p{
+    color: white;
+    font-size: 20px;
+    font-family: divvy-reg;
+}
+.kkkk a i{
+    background-color: #004d84 !important;
+    color: white !important;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+.nnnn a i{
+    background-color: #004d84 !important;
+    color: white !important;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+/* start lol-r1 */
+.lol-r1{
+    background-image: linear-gradient(80deg,#c9c5c4,#edebec) !important;
+}
+.lol-r2{
+    margin-top: 50px;
+}
+.lol-r2 p{
+    font-family: divvy-reg;
+    color: rgba(0, 0, 0, 0.479);
+    font-size: 18px;
+}
+.lol-r3{
+    margin-bottom: 30px;
+}
+.lol-r3 p{
+    font-family: divvy-reg;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.lol-r4{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 122px;
+}
+.lol-r4 h5{
+    font-family: divvy-reg;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-top: 30px;
+}
+.lol-r4 p{
+    margin-top: 15px;
+    font-size: 18px;
+} 
+open>.dropdown-menu {
+    display: block;
+    margin-left: 0;
+    background-color: white;
+    box-shadow: 0 0 0 0 transparent;
+}
+@media (min-width:320px) and (max-width:767px){
+    .lol-btn3{
+        margin-right: 50px;
+        margin-top: 20px;
+      }
+      .lol-btn9{
+        margin-right: 100px;
+        margin-top: 20px;
+
+      }
+      .a-div{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        margin-left: 100px;
+    
+    }
+    .b-div{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        margin-left: 190px;
+    
+    }
+    .area-123{
+        width: 250px;
+        height: 150px;
+    }
+    .lol-btn {
+        margin-right: 50px !important;
+
+    }
+    .lol-btn88{
+        margin-right: 180px !important;
+       
+    }
+    .list-btn12{
+        width: 200px !important;
+    }
+    .foot ul li a{
+        font-size: 8px !important;
+    }
+    .navs{
+        margin-left: 10px;
+        
+        
+    
+    }
+   
+    .navv  {
+       
+        display: flex;
+        flex-wrap: wrap;
+        
+      }
+      .navv{
+        display: none;
+      }
+      .pagination {
+        display: none;
+      }
+     
+      .link0 a span{
+        display: none;
+      }
+      .do{
+        display: block;
+      }
+      .vc{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: block !important;
+        
+      }
+      body{
+        width: 100%;
+      }
+}
+.vc{
+    display: none;
+}
+/* start login */
+.lol-login{
+    background-color: #004d85 !important;
+}
+.lol-login-img{
+    display: flex;
+    justify-content: center;
+}
+.lol-login-img img{
+    margin: 10px auto;
+}
+.lol-login-h4-p h4{
+    font-family: divvy-reg;
+    color: white ;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -5px;
+}
+.lol-login-h4-p p{
+    font-family: divvy-reg;
+    color: white ;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 10px;
+    margin-right: 12px;
+}
+.lol-logi-form [type="text"]{
+    margin-right: 490px;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #004d84;
+    border: 1px solid white;
+    margin-bottom: 5px;
+}
+.lol-logi-form input::placeholder{
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 12px;
+}
+.lol-logi-form [type="password"]{
+    margin-right: 490px;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #004d84;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+.lol-logi-form [type="checkbox"]{
+    margin-right: 612px;
+    margin-bottom: 10px;
+}
+.lol-logi-form span{
+    font-family: divvy-reg;
+    color: white ;
+    padding-right: 10px;
+}
+.lol-mm{
+    margin-right: 550px;
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #e10571;
+    border: 1px solid #e10571;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.lol-mm {
+    font-family: divvy-reg;
+    color: white ;
+}
+.lol-ppp{
+    font-family: divvy-reg;
+    color: white ;
+    margin-right: 550px;
+    margin-bottom: 14px;
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .lol-logi-form [type="text"]{
+        margin-right: 120px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: #004d84;
+        border: 1px solid white;
+        margin-bottom: 15px;
+        width: 271px;
+    }
+    .lol-logi-form [type="password"]{
+        margin-right: 120px;
+        width: 250px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: #004d84;
+        border: 1px solid white;
+        margin-bottom: 25px;
+    }
+    .lol-logi-form [type="checkbox"]{
+        margin-right: 220px;
+        margin-bottom: 20px;
+    }
+    .lol-mm{
+        margin-right: 150px;
+        width: 180px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #e10571;
+        border: 1px solid #e10571;
+    }
+    .lol-ppp{
+        font-family: divvy-reg;
+        color: white ;
+        margin-right: 160px;
+        margin-bottom: 15px;
+    }
+    }
+    @media (min-width:768px) and (max-width:991px){
+        .lol-logi-form [type="text"]{
+            margin-right:250px;
+            width: 250px;
+            height: 40px;
+            border-radius: 50px;
+            background-color: #004d84;
+            border: 1px solid white;
+            margin-bottom: 15px;
+        }
+        .lol-logi-form [type="password"]{
+            margin-right:250px;
+            width: 250px;
+            height: 40px;
+            border-radius: 50px;
+            background-color: #004d84;
+            border: 1px solid white;
+            margin-bottom: 25px;
+        }
+        .lol-logi-form [type="checkbox"]{
+            margin-right: 320px;
+            margin-bottom: 20px;
+        }
+        .lol-mm{
+            margin-right: 300px;
+            width: 180px;
+            height: 30px;
+            border-radius: 20px;
+            background-color: #e10571;
+            border: 1px solid #e10571;
+        }
+        .lol-ppp{
+            font-family: divvy-reg;
+            color: white ;
+            margin-right: 160px;
+            margin-bottom: 15px;
+        }
+    }
+    @media (min-width:992px) and (max-width:1199px){
+        .lol-logi-form [type="text"]{
+            margin-right:435px;
+            width: 250px;
+            height: 40px;
+            border-radius: 50px;
+            background-color: #004d84;
+            border: 1px solid white;
+            margin-bottom: 15px;
+        }
+        .lol-logi-form [type="password"]{
+            margin-right:435px;
+            width: 250px;
+            height: 40px;
+            border-radius: 50px;
+            background-color: #004d84;
+            border: 1px solid white;
+            margin-bottom: 25px;
+        }
+        .lol-logi-form [type="checkbox"]{
+            margin-right:550px;
+            margin-bottom: 20px;
+        }
+        .lol-mm{
+            margin-right: 480px;
+            width: 180px;
+            height: 30px;
+            border-radius: 20px;
+            background-color: #e10571;
+            border: 1px solid #e10571;
+        }
+        .lol-ppp{
+            font-family: divvy-reg;
+            color: white ;
+            margin-right: 200px;
+            margin-bottom: 15px;
+        }
+    }
+.has-success{
+    margin-left: 50px;
+
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    margin-left: 475px;
+    margin-bottom: 7px;
+}
+@media (min-width:320px) and (max-width:767px){
+.input-group {
+    margin-left: 90px;
+}
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 266px;
+    border: 1px solid white;
+    background-color: #004d84;
+    border-left: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.input-group-addon:first-child {
+    border-right: 0;
+    background-color: #004d84;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.input-group-addon:first-child i{
+    color: white;
+}
+.lol-login-form ::placeholder{
+    color: white;
+    padding-right: 76px;
+    font-size: 11px;
+}
+.jjj{
+    margin-bottom: 25px;
+}
+.lol-ppp {
+    padding-right: 10px;
+    font-size: 15px;
+}
+.mmm{
+    padding-right: 33px;
+   
+}
+.nmnm{
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+.nmnm i{
+    font-size: 18px;
+    padding-right: 25px;
+}
+.ml{
+    margin-right: 506px
+}
+.vvv1{
+     margin: 50px auto !important;
+    margin-right: 90px !important;
+    margin-top: 79px !important;
+    margin-bottom: 73px !important;
+}
+.mkmk{
+    margin-bottom: 27px;
+}
+.lol-ppp1{
+    margin-right: 537px;
+    margin-bottom: 24px
+}
+.nvnv{
+    margin-bottom: 14px
+}
+.lklk{
+    margin-bottom: 35px
+}
+.lpl{
+    margin-bottom: 30px
+}
+.lklk span a:hover{
+    color: #e10571;
+    text-decoration: none;
+}
+@media (min-width:320px) and (max-width:767px){
+    .vvv1{
+        margin: 50px auto !important;
+       margin-right: -300px !important;
+       margin-top: 20px !important;
+       margin-bottom: 73px !important;
+   }
+   .lol-ppp1{
+    margin-right: 150px;
+    margin-bottom: 24px
+}
+.lklk{
+    margin-right: 110px;
+}
+.lpl{
+    margin-bottom: 53px;
+
+}
+.dds{
+    margin-right: 170px !important;
+}
+.mi{
+    margin-bottom: 77px !important;
+}
+.lol-logi-form [type="email"] {
+    margin-right: 116px !important;
+    width: 257px !important;
+}}
+.cx{
+    margin-right: 554px;
+    margin-bottom: 24px;
+    font-size: 17px;
+}
+.ju{
+    margin-bottom: 33px;
+}
+.mi{
+    margin-top: 30px;
+    margin-bottom: 54px;
+}
+.bn{
+    padding-top: 40px;
+    font-size: 32px;
+    margin-right: 493px;
+}
+.lol-logi-form [type="email"]{
+    margin-right: 490px;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #004d84;
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+.lol-logi-form ::placeholder{
+    text-align: right !important;
+}
+.kko{
+    margin-bottom: 32px;
+}
+.fdfd{
+    background-color: #004d84 !important;
+    height: 100vh !important;
+}
+.bfg{
+    margin-right: 430px;
+    margin-bottom: -30px;
+    
+}
+.vvv2{
+    margin-left: -150px;
+    margin-right: 600px;
+    margin-bottom: 40px;
+}
+.nkh{
+    font-size: 30px;
+}
+.bfds{
+    height: 100vh !important;
+    background-color: #004d84 !important;
+}
+.vvvc{
+    margin-top: 10px;
+}
+.po{
+    padding-top: 120px;
+    font-size: 30px !important;
+}
+.po1{
+    font-size: 18px !important;
+    margin-bottom: 8px !important;
+}
+.po2{
+    font-size: 18px !important;
+    margin-bottom: -70px !important;
+}
+.bjh{
+    margin-bottom: -40px !important;
+}
+.miu{
+    margin-bottom: 68px !important;
+}
+.ngh{
+    margin-bottom: 45px;
+}
+@media (min-width:320px) and (max-width:767px){
+    .po{
+        padding-top: 50px;
+    }
+    .po2{
+        margin-bottom: 5px !important;
+    }
+    .lol-login-img img {
+        margin-left: 200px !important
+    }
+    .miu{
+        margin-bottom: 61px !important;
+    }
+    }
+   
+    .nmbn{
+        color: white;
+        font-family: divvy-reg;
+        margin-right: 10px;
+        
+    }
+    .bfrt{
+        direction: ltr;
+        margin-top: 8px;
+        display: flex;
+    }
+    .secti-lol{
+        margin-top: 100px;
+        height: 160px;
+        width: 1080px;
+        background-color: #e10571;
+        margin-right: 100px;
+        margin-bottom: 10px;
+    }
+    .dddm{
+        position: absolute;
+        top: 120px;
+        right: 540px;
+        padding: 5px;
+        border: 5px solid #e10571;
+        border-radius: 50%;
+    }
+    .lol-box-pro h6{
+        color: white;
+        font-family: divvy-reg;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 120px;
+    }
+    .lol-box-pro p{
+        color: white;
+        font-family: divvy-reg;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 120px;
+        margin-bottom: 5px;
+    }
+   .bhgt{
+    font-size: 8px !important;
+   }
+ .navs-sec{
+    direction: rtl;
+    margin-right: 100px;
+ }
+ .span2{
+    background-color: #004d84;
+ }
+ .nav-lol-sec li a{
+    margin-top: 15px;
+    font-size: 16px;
+ }
+ .open>.dropdown-menu {
+    background-color: #e10571;
+ }
+ .open>.dropdown-menu a{
+    color: white;
+ }
+ .hglg li a{
+    font-family: divvy-reg;
+ }
+ .lol-soc-book h2{
+    font-family: divvy-reg;
+    color: #e10571;
+    margin-bottom: 20px;
+ 
+ }
+ .lol-soc-book p{
+    font-family: divvy-reg;
+    color: #004d84;
+    font-size: 18px;
+ }
+ .lol-soc-book h5{
+    font-family: divvy-reg;
+    color: #e10571;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+ }
+ .lol-soc-book span{
+    font-family: divvy-reg;
+    color: #e10571;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+ }
+ .gfyg {
+    border: 1px solid #ccc;
+    font-size: 12px;
+    height: 30px;
+    padding: 4px 8px;
+    position: absolute;
+    width: 50%;
+  }
+  .gfyg:focus {
+    outline: none;
+  }
+  .sample.one button.btn-search, .sample.two button.btn-search {
+    right: 256px;
+}
+.sample.one .gfyg, .sample.two .gfyg {
+    right: 256px;
+ 
+}
+  button.btn-search, button.btn-reset {
+    background: #e10571;
+    border: none;
+    height: 30px;
+    font-size: 12px;
+    padding: 4px;
+    position: absolute;
+    width: 30px;
+  
+  }
+  
+  .sample {
+    float: left;
+    margin: 0 8%;
+    position: relative;
+    width: 60%;
+  }
+  .sample.one .gfyg, .sample.two .gfyg {
+    border-radius: 15px;
+    right: 0;
+    transition: all .3s ease-in-out;
+    width: 35%;
+  }
+  .sample.one input:focus, .sample.two input:focus {
+    width: 60%;
+  }
+  .sample.one input:focus ~ button.btn-search, .sample.two input:focus ~ button.btn-search {
+    background: #e10571;
+    color: #fff;
+  }
+  .sample.one input:focus ~ button.btn-reset, .sample.two input:focus ~ button.btn-reset {
+    right: -22px;
+  }
+  .sample.one button, .sample.two button {
+    transition: all .3s ease-in-out;
+  }
+  .sample.one button.btn-search, .sample.two button.btn-search {
+    background: #004d84;
+    border-radius: 50%;
+    height: 22px;
+    right: -1px;
+    top: 3px;
+    transition: all .3s ease-in-out;
+    width: 22px;
+    color: white;
+  }
+  
+  .sample.one button.btn-reset, .sample.two button.btn-reset {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    z-index: -1;
+  }
+  .sample.three button.btn-search, .sample.four button.btn-search {
+    backface-visibility: visible;
+    color: #fff;
+    padding: 0;
+    position: relative;
+    transform: rotateY(0deg);
+    transform-origin: 121px 0;
+    transform-style: preserve3d;
+    transition: transform .6s ease-in-out .2s;
+    width: 120px;
+  }
+  .sample.three button.btn-reset, .sample.four button.btn-reset {
+    backface-visibility: hidden;
+    background: #ccc;
+    transform: rotateX(-180deg) translateY(30px) translateX(2px);
+    transform-origin: 0 32px;
+    transform-style: preserve3d;
+    transition: transform .6s ease-in-out .2s;
+    width: 120px;
+  }
+  .sample.four button.btn-search {
+    transition: transform .6s ease-in-out .8s;
+  }
+  .sample.nine .gfyg:focus ~ button.btn-search, .sample.ten .gfyg:focus ~ button.btn-search {
+    background: #e10571;
+    color: #fff;
+    left: 172px;
+    transition-delay: 0;
+  }
+  .sample.nine .gfyg:focus ~ button.btn-reset, .sample.ten input:focus ~ button.btn-reset {
+    left: 202px;
+    transition-delay: .3s;
+  }
+  .sample.nine button, .sample.ten button {
+    transition: all .6s ease-in-out;
+  }
+  .sample.nine button.btn-search, .sample.ten button.btn-search {
+    background: #ccc;
+    border-radius: 50%;
+    height: 18px;
+    left: 90px;
+    top: 2px;
+    transition-delay: .3s;
+    width: 18px;
+  }
+  .sample.nine button.btn-reset, .sample.ten button.btn-reset {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 20px;
+    left: 92px;
+    line-height: 20px;
+    padding: 0;
+    top: 5px;
+    width: 20px;
+    z-index: -1;
+  }
+  .sample.eleven .gfyg, .sample.twelve .gfyg {
+    border-radius: 15px;
+    transition: all .6s ease-in-out;
+    width: 120px;
+  }
+  .sample.eleven .gfyg:focus, .sample.twelve .gfyg:focus {
+    width: 200px;
+  }
+  .sample.eleven .gfyg:focus ~ button.btn-search, .sample.twelve .gfyg:focus ~ button.btn-search {
+    animation: jumpTowardSearch 1.2s linear;
+    background: #e10571;
+    color: #fff;
+    left: 172px;
+  }
+  .sample.eleven .gfyg:focus ~ button.btn-reset, .sample.twelve .gfyg:focus ~ button.btn-reset {
+    animation: jumpTowardReset 1.2s linear .4s;
+    left: 202px;
+  }
+  .sample.eleven button, .sample.twelve button {
+    transition: all .6s ease-in-out;
+  }
+  .sample.eleven button.btn-search, .sample.twelve button.btn-search {
+    background: #ccc;
+    border-radius: 50%;
+    height: 26px;
+    left: 92px;
+    top: 2px;
+    width: 26px;
+  }
+  .sample.eleven button.btn-reset, .sample.twelve button.btn-reset {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 20px;
+    left: 92px;
+    line-height: 20px;
+    padding: 0;
+    top: 5px;
+    width: 20px;
+    z-index: -1;
+  }
+  .sample.thirteen .gfyg, .sample.fourteen .gfyg {
+    background: none;
+    border-color: #000;
+    border-radius: 15px;
+    border-width: 0 0 1px;
+    transition: all .8s ease-in-out;
+    width: 30px;
+  }
+  .sample.thirteen .gfyg:focus, .sample.fourteen .gfyg:focus {
+    background: radial-gradient(ellipse at top left, rgba(0, 0, 0, 0) 65%, #e10571 140%);
+    border-radius: 0 15px 15px 0;
+    width: 250px;
+  }
+  .sample.thirteen .gfyg:focus ~ button.btn-search, .sample.fourteen .gfyg:focus ~ button.btn-search {
+    background: #e10571;
+    color: #fff;
+    left: 222px;
+    transform: rotate(720deg);
+  }
+  .sample.thirteen .gfyg:focus ~ button.btn-reset, .sample.fourteen .gfyg:focus ~ button.btn-reset {
+    left: 256px;
+    transform: rotate(360deg);
+  }
+  .sample.thirteen button, .sample.fourteen button {
+    transition: all .8s ease-in-out;
+  }
+  .sample.thirteen button.btn-search, .sample.fourteen button.btn-search {
+    background: #ccc;
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 30px;
+    left: 0;
+    width: 30px;
+  }
+  .sample.thirteen button.btn-reset, .sample.fourteen button.btn-reset {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 20px;
+    left: 2px;
+    line-height: 20px;
+    padding: 0;
+    top: 10px;
+    width: 20px;
+    z-index: -1;
+  }
+  
+  @keyframes bounceRight {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  @keyframes jumpTowardSearch {
+    0% {
+      background: #ccc;
+      opacity: 1;
+      transform: rotateZ(0deg) scale(1);
+    }
+    20% {
+      background: #ccc;
+      opacity: 0;
+      transform: rotateZ(-60deg) scale(50);
+    }
+    55% {
+      background: #e10571;
+      opacity: 0;
+      transform: rotateZ(-30deg) scale(100);
+    }
+    90% {
+      background: #e10571;
+      opacity: 0;
+      transform: rotateZ(-30deg) scale(50);
+    }
+    100% {
+      background: #e10571;
+      opacity: 1;
+      transform: rotateZ(0deg) scale(1);
+    }
+  }
+  @keyframes jumpTowardReset {
+    0% {
+      opacity: 0;
+      transform: rotateZ(0deg) scale(1);
+    }
+    20% {
+      opacity: 0;
+      transform: rotateZ(-60deg) scale(50);
+    }
+    55% {
+      opacity: 0;
+      transform: rotateZ(-30deg) scale(100);
+    }
+    90% {
+      opacity: 0;
+      transform: rotateZ(-30deg) scale(50);
+    }
+    100% {
+      opacity: 1;
+      transform: rotateZ(0deg) scale(1);
+    }
+  }
+  .one .gfyg{
+    height: 20px;
+    margin-top: 7px;
+  }
+  .one  .btn-search{
+    height: 20px;
+    margin-top: 3px;
+  }
+.link11{
+    width: 300px;
+}
+@media (min-width:320px) and (max-width:767px){
+    
+    .link0{
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+    }
+}
+.sample{
+    direction: ltr;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.box123{
+    margin: 0;
+    padding: 0;
+    font-family: divvy-reg;
+    box-sizing: border-box;
+    direction: ltr;
+    position: absolute;
+    height: 425px;
+    width: 280px;
+    left: 5px;
+    top: 235px;
+    background-color: #e10571;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.header h4{
+    color: white;
+    padding: 15px;
+    float: right;
+}
+
+.body{
+    flex: 1;
+    color: white;
+    background-color: #004d84;
+    padding: 20px 30px;
+    margin-bottom: 3px;
+}
+.contaner{
+    width: 100%;
+    height: 73vh;
+    display: flex;
+    flex-direction: column;
+}
+.message{
+    background-color: #e10571;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 8px;
+
+}
+.user_message{
+    margin-left: auto;
+    background: white;
+    color: #e10571;
+}
+.footeer form{
+    display: flex;
+}
+form .dsuhj{ 
+    height: 45px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 16px;
+    width: 450px;
+    padding-right: -20px;
+}
+.box123{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+form button{
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #004d84;
+    padding: 9px;
+    
+}
+.bghjkt{
+    width: 1170px;
+    margin-left: 100px;
+}
